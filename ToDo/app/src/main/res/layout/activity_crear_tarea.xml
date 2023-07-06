@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearTarea">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="417dp"
+        android:layout_height="58dp"
+        android:background="@color/teal_700"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="132dp"
+        android:text="Crear tarea"
+        android:textColor="#FFFDFD"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/eTituloT"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:hint="Titulo de la tarea"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="@+id/toolbar5" />
+
+    <EditText
+        android:id="@+id/eDescT"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="184dp"
+        android:ems="10"
+        android:hint="Descripción"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="@+id/toolbar5" />
+
+    <EditText
+        android:id="@+id/eFechaT"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="272dp"
+        android:ems="10"
+        android:hint="Fecha"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="@+id/toolbar5" />
+
+    <EditText
+        android:id="@+id/eHoraT"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="356dp"
+        android:ems="10"
+        android:hint="Hora"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="@+id/toolbar5" />
+
+    <EditText
+        android:id="@+id/eEE"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="436dp"
+        android:ems="10"
+        android:hint="EE"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="@+id/toolbar5" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="140dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="532dp"
+        android:background="@color/teal_700"
+        android:onClick="crearT"
+        android:text="Crear"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+</android.support.constraint.ConstraintLayout>
